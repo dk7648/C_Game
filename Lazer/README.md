@@ -1,6 +1,3 @@
-# 프로그램 설명 (코드에 대한 설명)  
-
-  
 
 # 게임 규칙:
 지정된 공간 안에서 레이저를 피하는 게임.
@@ -20,13 +17,13 @@
 플레이어 이동 시 if(_kbhit())을 이용하여 키보드 입력이 없어도 게임이 멈추지않고 진행될 수 있게 설계했다.
 
 # 함수:
-- void setColor(unsigned short text, unsigned short back);
+- void setColor(unsigned short text, unsigned short back);  
   출력 색을 변경할 수 있다.
-- int death(int score);
+- int death(int score);  
   사망 시 게임종료 문구와 최종 점수를 띄운다.
-- void openGame();
+- void openGame();  
   게임 시작 시 대기화면을 구성했다.
-- void map(int *nMap);
+- void map(int *nMap);  
   맵을 선택하고 그 값을 nMap에 담는다.
-- void game(int a);
+- void game(int a);  
   Map에서 선택된 맵을 사용해 게임을 진행한다.
